@@ -10,16 +10,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class InitDriver {
     private static WebDriver driver;
 
-    public static WebDriver getDriver(){
+    public static WebDriver getChromeDriver(){
         if(driver==null){
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+            driver.manage().deleteAllCookies();
+            driver.manage().window().maximize();
         }
         return  driver;
     }
 
     public static void closeDriver(){
-
         driver.close();
         if (driver != null)
         {
