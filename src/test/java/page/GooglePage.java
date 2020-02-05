@@ -6,15 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
 public class GooglePage {
     @FindBy(name = "q")
     private WebElement searchField;
     @FindBy(xpath = "//a[@href='https://www.facebook.com/']")
     private WebElement facebookLink;
 
-    public GooglePage(){
-        PageFactory.initElements(InitDriver.getChromeDriver(),this);
+    public GooglePage(String browser){
+        if (browser=="Chrome") {
+            PageFactory.initElements(InitDriver.getChromeDriver(), this);
+        }
+        else if (browser == "Firefox") {
+            PageFactory.initElements(InitDriver.getFirefoxDriver(), this);
+        }
     }
 
     public void navigateTo(){
@@ -25,7 +29,7 @@ public class GooglePage {
         searchField.sendKeys("Facebook", Keys.ENTER);
     }
 
-    public void goToFacebbok(){
+    public void goToFacebook(){
         facebookLink.click();
     }
 }

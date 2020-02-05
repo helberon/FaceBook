@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15759cfa-fb8f-4235-97f5-bcc25ae4a2f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/InitDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/InitDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuthenticationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/FacebookPagr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/FacebookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/FacebookPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/GooglePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/core/InitDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/InitDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/AuthenticationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AuthenticationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/FacebookPagr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/GooglePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,22 +101,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" width="815" height="681" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580460904083" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580897227917">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580900446244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580897227917" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580897227917">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580900446244" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580900446244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580897227917" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580897227917">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580900446244" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580900446244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580897227917" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580897227917">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580900446244" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580900446244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580897227917" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580900446244" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580893122061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

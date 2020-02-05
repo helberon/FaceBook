@@ -21,8 +21,13 @@ public class FacebookPage {
     @FindBy (xpath = "//div[@role='alert']")
     private WebElement badLoginAlert;
 
-    public FacebookPage(){
-        PageFactory.initElements(InitDriver.getChromeDriver(),this);
+    public FacebookPage(String browser){
+        if (browser=="Chrome") {
+            PageFactory.initElements(InitDriver.getChromeDriver(), this);
+        }
+        else if (browser == "Firefox") {
+            PageFactory.initElements(InitDriver.getFirefoxDriver(), this);
+        }
     }
 
     public void enterBadCredentials(String login, String password){
